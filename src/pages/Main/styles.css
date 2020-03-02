@@ -5,3 +5,22 @@
   height: 86px;
   width: 100%;
 }
+
+.route-path {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #aeb6c1;
+  word-spacing: 4px;
+}
+
+.container {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 11px;
+}
+
+.content {
+  margin-top: 20px;
+}
