@@ -4,6 +4,7 @@ import Header from "../../components/Header";
 import Gallery from "../../components/Gallery";
 import ProductInfo from "../../components/ProductInfo";
 import Footer from "../../components/Footer";
+import SuggestionCard from "../../components/SuggestionCard";
 
 import "./styles.css";
 
@@ -23,6 +24,15 @@ export default function Main() {
         <div className="content">
           <Gallery />
           <ProductInfo />
+        </div>
+        <div className="suggestions">
+          <h1>Quem viu, viu também</h1>
+          <div className="cards">
+            <SuggestionCard />
+            <SuggestionCard />
+            <SuggestionCard />
+            <SuggestionCard />
+          </div>
         </div>
       </div>
       <Footer />
