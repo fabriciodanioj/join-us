@@ -3,7 +3,8 @@ import React from "react";
 import product01 from "../../assets/products/product01.png";
 import product01Video from "../../assets/products/product01Video.png";
 import play_circle from "../../assets/products/play_circle.png";
-import arrow from "../../assets/arrow.png";
+import arrowUp from "../../assets/arrowUp.png";
+import arrowDown from "../../assets/arrowDown.png";
 
 import "./styles.css";
 
@@ -25,7 +26,7 @@ export default function Gallery() {
           </div>
           <div className="photos">
             <a href="www" style={{ marginTop: 10, marginBottom: 10 }}>
-              <img src={arrow} alt="" />
+              <img src={arrowUp} alt="" />
             </a>
             <a href="www">
               <img src={product01} alt="" style={{ width: 82, height: 94.3 }} />
@@ -52,7 +53,7 @@ export default function Gallery() {
               />
             </a>
             <a href="www" style={{ marginTop: 10, marginBottom: 10 }}>
-              <img src={arrow} alt="" />
+              <img src={arrowDown} alt="" />
             </a>
           </div>
         </div>

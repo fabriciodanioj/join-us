@@ -2,6 +2,8 @@ import React from "react";
 
 import Header from "../../components/Header";
 import Gallery from "../../components/Gallery";
+import ProductInfo from "../../components/ProductInfo";
+import Footer from "../../components/Footer";
 
 import "./styles.css";
 
@@ -20,8 +22,10 @@ export default function Main() {
         </h1>
         <div className="content">
           <Gallery />
+          <ProductInfo />
         </div>
       </div>
+      <Footer />
     </>
   );
 }
